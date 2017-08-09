@@ -25,13 +25,11 @@
         <th>Age</th>
         <th>Sex</th>
     </tr>
-    <c:forEach var="student" items="${students}">
+    <c:forEach var="users" items="${users}">
         <tr>
 
-            <td>${student.id}</td>
-            <td>${student.name}</td>
-            <td>${student.age}</td>
-            <td>${student.sex}</td>
+            <td>${users.id}</td>
+
         </tr>
     </c:forEach>
 </table>
